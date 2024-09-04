@@ -1,0 +1,24 @@
+.user-row {
+  cursor: pointer;
+}
+
+.user-posts {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.5s ease-out;
+  cursor: pointer;
+  color: darkolivegreen;
+  background-color: paleturquoise;
+}
+
+.user-posts.user-posts--open {
+  grid-template-rows: 1fr;
+}
+
+.user-posts-inner {
+  overflow: hidden;
+}
+
+.user-posts-inner ul {
+  padding: 2rem;
+}

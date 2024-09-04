@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# User-Post Dashboard Live Coding Exercise (30 minutes)
+## Overview
+In this live coding session, you will create a NextJS application for a User-Post Dashboard. The dashboard will fetch both user and post data from a public API, combine this information, and display it in a table format with some interactive features.
 
-## Getting Started
+## Instructions
+### Setup
+- We'll use CodeSandbox (https://codesandbox.io/) for this exercise.
 
-First, run the development server:
+### Task
+Implement a User-Post Dashboard that fetches user and post data, combines them, and displays the information in an interactive table.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### To-Do List (in order of priority)
+1. Set up the HTML structure for the dashboard
+2. Fetch user data from `https://jsonplaceholder.typicode.com/users`
+3. Fetch post data from `https://jsonplaceholder.typicode.com/posts`
+4. Combine the data to create a list of users with their post counts
+5. Create a table to display: user name, email, company name, and post count
+6. Implement a search feature to filter users by name or email
+7. Add a button to sort users by post count (descending/ascending)
+8. Display a loading indicator while data is being fetched
+9. Implement basic error handling for API calls
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Nice-to-Haves (if time permits)
+- Add a feature to expand a user's row to show titles of their posts
+- Implement simple styling for better presentation
+- Display the total number of users and posts
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Resources
+- JSONPlaceholder API: 
+  - Users: https://jsonplaceholder.typicode.com/users
+  - Posts: https://jsonplaceholder.typicode.com/posts
+- MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Evaluation Criteria
+Your solution will be evaluated based on:
+1. Correct data fetching and combination
+2. Effective DOM manipulation
+3. Implementation of interactive features (search and sort)
+4. Code organization and clarity
+5. JavaScript best practices
+6. Problem-solving approach
 
-## Learn More
+## Time Management
+- 5 minutes: Setup and planning
+- 20 minutes: Implementation of core features
+- 5 minutes: Refinement or implementation of nice-to-haves
 
-To learn more about Next.js, take a look at the following resources:
+Remember, the goal is to demonstrate your coding process, problem-solving skills, and ability to work with related datasets. Focus on writing clean, functional code for the core requirements.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Good luck!
